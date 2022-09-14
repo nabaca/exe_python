@@ -1,2 +1,2 @@
-# exe_python
+# Exercícios python
  Exercícios curso python
