@@ -1,5 +1,7 @@
-import imp
 from math import (hypot)
-ca = int (input ('Cateto adjacente '))
-co = int (input ('Cateto oposto '))
-print ('A hipotenusa é {:.0f}'.format(hypot(ca,co)))
+co = float (input ('Cateto oposto '))
+ca = float (input ('Cateto adjacente '))
+#print ('A hipotenusa é {:.2f}'.format(hypot(ca,co)))
+
+hi = hypot(co,ca)
+print ('A hipotenusa é {:.2f}'.format (hi))
