@@ -1,0 +1,7 @@
+n = str (input('Cidade: '))
+#print (n.upper().find('SANTO'))
+#print ('SANTO' in n.upper())
+print ('*********************')
+div = n.split()
+print (div)
+print ('SANTO' in div[0].upper())

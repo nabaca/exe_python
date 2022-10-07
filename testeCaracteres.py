@@ -23,5 +23,10 @@ print('*'.join(frase))
 div = frase.split()
 print('*'.join(div))
 print (div)
-print(''.join(div).count)
+print(''.join(div))
 print (div[3][4])
+
+
+
+frase = "Mundo mundo vasto mundo"
+print(frase[::-1])
