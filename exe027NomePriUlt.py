@@ -1,4 +1,4 @@
-n = str (input('nome: '))
+n = str (input('nome: ')).strip()
 div = n.split() 
 print (div)
-print (div[0], div[-1])
+print ('Seu primeiro e ultimo nome: {}'.format(div[0]),'{}'.format(div[-1]))
